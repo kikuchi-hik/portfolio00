@@ -1,0 +1,47 @@
+.Profile {
+    background-color:rgb(239, 246, 248);
+    padding: 100px 0;
+}
+
+
+.Prof-items {
+    text-align: center;
+}
+
+.human {
+    width:auto;
+    height:300px;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+    background: url(../img/fall_snow.gif) no-repeat center center/cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 4rem;
+    color: transparent;
+   }
+
+
+.row {
+    margin-top:50px;
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+}
+
+.Prof-list {
+    display: inline-block;
+    padding:0 30px;
+    text-align:left;
+}
+
+.topic {
+    display: inline-block;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: solid 3px rgb(124, 178, 248);
+
+}

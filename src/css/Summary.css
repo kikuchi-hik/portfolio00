@@ -1,0 +1,26 @@
+.Summary {
+    background-color: rgb(239, 246, 248);
+    padding: 100px 0;
+}
+
+.div {
+    display: flex;
+    word-break: break-word;
+  }
+
+li {
+    list-style: none;
+}
+
+td{
+    padding-right: 10px;
+}
+
+.item-center {
+    margin-top: 20px;
+    padding: 5vh;
+    display: flex;
+    text-align: left;
+    justify-content:center; 
+    align-items: center;
+}

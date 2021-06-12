@@ -1,0 +1,64 @@
+
+
+.Home {
+  background-color: #282c34; 
+}
+
+.App-logo {
+  height: 8vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Home-header {
+  background-color: #282c34;
+  height: 100vh;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: transparent;
+}
+
+.Home-title {
+  text-align: center;
+  margin: 0;
+  background: url(../img/fall_snow.gif) no-repeat center center/cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: calc(10vw + 2vmin);
+  color: transparent;
+ }
+
+.subTitle {
+  background-color: #282c34;
+  height: 1vh;
+  display: inline-block;
+  flex-direction: column;
+  text-align: right;
+  font-size: calc(3vw + 2vmin);
+  color: transparent;
+} 
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

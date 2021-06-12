@@ -1,0 +1,40 @@
+.Studies {
+    background-color: rgb(239, 246, 248);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.img {
+    display: inline-block;
+    height:150px;
+    width: auto;
+}
+
+.studies-row {
+    margin-top:50px;
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    text-align: center;
+}
+
+.item-center {
+    margin-top: 20px;
+}
+
+.study-list {
+    border: medium groove rgb(124, 178, 248);
+    border-radius: 30px;
+}
+
+/* txt-contentsクラスのCSSを指定してください */
+.txt-contents {
+    width:80%;
+    display:inline-block;
+    margin-top:20px;
+    font-size:24px;
+  }
+  
+.sk-icon{
+    display: inline-block;
+}
