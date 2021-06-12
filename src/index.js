@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 
 import './index.css';
 import NavBar from './components/Navbar';
-import App from './components/App.js';
 import Home from './components/Home.jsx';
 import Profile from './components/Profile';
 import Summary from './components/Summary';
@@ -13,7 +12,7 @@ import ContactForm from './components/ContactForm';
 
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.StrictMode >
     <NavBar />
     <Home />
     <Profile />

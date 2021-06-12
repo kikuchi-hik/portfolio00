@@ -3,6 +3,9 @@ import '../css/Profile.css';
 import human from '../img/prof-img.png';
 import "animate.css/animate.min.css";
 
+import gitlogo from '../img/git-logo.png';
+import twilogo from '../img/twi-logo.svg';
+
 
 
 
@@ -31,6 +34,9 @@ render() {
              <li>出身地：青森県</li>
              <li>居住地：神奈川県</li>
              <li>趣味:雑学集め</li>
+             <li>SNS: 
+             <a href="https://twitter.com/web_hik"target="_blank" rel="noopener noreferrer"><img src={twilogo} className="sns-icon" alt="logo" /></a> 
+             <a href="https://github.com/kikuchi-hik"target="_blank" rel="noopener noreferrer"><img src={gitlogo} className="sns-icon" alt="logo" /></a></li>
              <li><br></br>ポートフォリオをご覧いただきありがとうございます。
                このサイトはcreate-react-appの状態からHTML/CSS,Reactを用いて作成しました。
                学習開始から完成まで2週間ほどでまだまだ改善点も多くありますが、

@@ -1,5 +1,7 @@
 import React from 'react';
 import '../css/ContactForm.css';
+import twilogo from '../img/twi-logo.svg';
+
 
 class ContactForm extends React.Component {
   constructor(props) {
@@ -135,6 +137,9 @@ class ContactForm extends React.Component {
         <h2 className="title">
           Contact
          </h2>
+         <p>※このフォームは実装されておりません。
+           <a href="https://docs.google.com/forms/d/e/1FAIpQLSdjlnLJHnSO2dstKSPh2tGYXtCZV3EBbuKXe2P1nw6ja0tOBg/viewform?embedded=true"target="_blank" >
+             コチラ</a>にご入力いただくか、SNS<a href="https://twitter.com/web_hik"target="_blank" rel="noopener noreferrer"><img src={twilogo} className="sns-icon" alt="logo" /></a> からご連絡お願い致します。</p>
         {contactForm}
         </div>
       </div>
