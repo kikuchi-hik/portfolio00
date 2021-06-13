@@ -138,8 +138,8 @@ class ContactForm extends React.Component {
           Contact
          </h2>
          <p>※このフォームは実装されておりません。
-           <a href="https://docs.google.com/forms/d/e/1FAIpQLSdjlnLJHnSO2dstKSPh2tGYXtCZV3EBbuKXe2P1nw6ja0tOBg/viewform?embedded=true"target="_blank" >
-             コチラ</a>にご入力いただくか、SNS<a href="https://twitter.com/web_hik"target="_blank" rel="noopener noreferrer"><img src={twilogo} className="sns-icon" alt="logo" /></a> からご連絡お願い致します。</p>
+           <a href="https://docs.google.com/forms/d/e/1FAIpQLSdjlnLJHnSO2dstKSPh2tGYXtCZV3EBbuKXe2P1nw6ja0tOBg/viewform?embedded=true" >
+             コチラ</a>にご入力いただくか、SNS<a href="https://twitter.com/web_hik"><img src={twilogo} className="sns-icon" alt="logo" /></a> からご連絡お願い致します。</p>
         {contactForm}
         </div>
       </div>
