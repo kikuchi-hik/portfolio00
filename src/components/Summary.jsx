@@ -14,7 +14,7 @@ render() {
                  <table>
            <tr><td>2014/03</td> <th> 青森県立田子高等学校　卒業</th></tr>
            <tr><td>　　/04 </td><th>東海大学政治経済学部経済学科　入学</th></tr>
-           <tr><td>2018/09 </td><th>東海大学　中退</th></tr>
+           <tr><td>2017/09 </td><th>東海大学　中退</th></tr>
            <tr><td>　　/10 </td><th>青森県の実家で農業</th></tr>
            <tr><td>　</td><th></th></tr>
            <tr><td>2020/07 </td><th>WordPressでVODアフィリエイトブログを作成(現在は閉鎖）</th></tr>
